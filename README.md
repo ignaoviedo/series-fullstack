@@ -77,4 +77,4 @@ crud_validaciones
 
 # 📷 Vista de la aplicación
 
-Aquí se puede agregar una captura de pantalla de la aplicación.
+![Vista de la aplicación](image.png)
