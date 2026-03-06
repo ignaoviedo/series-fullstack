@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+header {
+    background-image: url('../images/Plataformas.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 250px;
+    position: relative;
+    width: 100%;
+}
+header nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a44cd6;
+    width: 100%;
+}
+header .nav-pills .nav-link {
+    background-color: #a44cd6;
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+header .nav-pills .nav-link.active {
+    background-color: #ddd;
+    color: #a44cd6;
+}
+.usuario-pill {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #a44cd6;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.landing-icon {
+    font-size: 3rem;
+    color: #a44cd6;
+}
+.landing-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}

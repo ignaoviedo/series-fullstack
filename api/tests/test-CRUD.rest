@@ -1,0 +1,34 @@
+### Obtener las temporadas
+GET http://localhost:3000/api/temporadas
+
+### Obtener una temporada por ID
+GET http://localhost:3000/api/temporadas/filtrar?genero=com&titulo=big
+
+### Crear un nueva temporada
+POST http://localhost:3000/api/temporadas
+Content-Type: application/json
+
+{
+  "id_serie": 5,
+  "numero": 4,
+  "episodios": 30,
+  "anio_estreno": 2007,
+  "genero": "Comedia",
+  "creador": "Momia"
+}
+
+### Actualizar una temporada existente
+PUT http://localhost:3000/api/temporadas/10
+Content-Type: application/json
+
+{
+  "id_serie": 5,
+  "numero": 2,
+  "episodios": 30,
+  "anio_estreno": 1995,
+  "genero": "Comedia",
+  "creador": "Momia"
+}
+
+### Eliminar una temporada
+DELETE http://localhost:3000/api/temporadas/103
